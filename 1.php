@@ -1,11 +1,7 @@
 <?php
-/**
- * @author Vladislav Marudenko
- */
-
 class First {
     /**
-     * @uses Print any object classname
+     * @uses Print the name of the class of an object
      */
     public function getClassname(){
         echo get_class();
@@ -21,4 +17,3 @@ class Second extends First {
         echo 'B';
     }
 }
-
